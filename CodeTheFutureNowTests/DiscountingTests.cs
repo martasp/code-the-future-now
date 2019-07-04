@@ -1,12 +1,10 @@
-﻿using System;
-using System.Linq;
-using System.Threading.Tasks;
-using NServiceBus;
-using NServiceBus.Testing;
-using Xunit;
-
-namespace CodeTheFutureNow
+﻿namespace CodeTheFutureNow
 {
+    using System.Linq;
+    using System.Threading.Tasks;
+    using NServiceBus.Testing;
+    using Xunit;
+
     public class DiscountingTests
     {
         [Fact]
